@@ -1,4 +1,5 @@
 package read.source;
+import junit.textui.TestRunner;
 
 /**
  * Created by yan.zhang on 5-30.
@@ -6,6 +7,6 @@ package read.source;
 public class RunJunit {
 
     public static void main(String[] args) {
-        junit.textui.TestRunner.main(new String[] { "read.source.AppTest" });
+        TestRunner.main(new String[] { "read.source.AppTest" });
     }
 }
