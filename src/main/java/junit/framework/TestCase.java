@@ -121,6 +121,7 @@ public abstract class TestCase extends Assert implements Test {
 	}
 	/**
 	 * Runs the bare test sequence.
+	 * Bruce:template pattern
 	 * @exception Throwable if any exception is thrown
 	 */
 	public void runBare() throws Throwable {

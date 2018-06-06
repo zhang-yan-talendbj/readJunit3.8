@@ -104,7 +104,7 @@ public class TestSuite implements Test {
 	}
 	private String fName;
 
-	private Vector fTests= new Vector(10);
+	private Vector<Test> fTests= new Vector(10);
 
     /**
 	 * Constructs an empty TestSuite.

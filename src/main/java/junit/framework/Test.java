@@ -12,6 +12,7 @@ public interface Test {
 	public abstract int countTestCases();
 	/**
 	 * Runs a test and collects its result in a TestResult instance.
+	 * Bruce: Commander pattern
 	 */
 	public abstract void run(TestResult result);
 }
